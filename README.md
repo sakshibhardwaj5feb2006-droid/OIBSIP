@@ -44,8 +44,8 @@ Sakshi Kumari
 
 ## 🔗 GitHub Repository
 
-Add your GitHub repository link here.
+https://github.com/sakshibhardwaj5feb2006-droid/OIBSIP
 
 ## 🌐 Live Demo
 
-Add your GitHub Pages live link here.
+https://sakshibhardwaj5feb2006-droid.github.io/OIBSIP/
