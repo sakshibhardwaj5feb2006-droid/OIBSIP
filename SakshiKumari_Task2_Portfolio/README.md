@@ -48,4 +48,4 @@ https://github.com/sakshibhardwaj5feb2006-droid/OIBSIP
 
 ## 🌐 Live Demo
 
-https://sakshibhardwaj5feb2006-droid.github.io/OIBSIP/Task2_Portfolio/
+https://sakshibhardwaj5feb2006-droid.github.io/OIBSIP/SakshiKumari_Task2_Portfolio/
