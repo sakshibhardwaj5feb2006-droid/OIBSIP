@@ -1,39 +1,23 @@
-function convertTemp(){
+// Welcome Message
+window.addEventListener("load", () => {
+    console.log("Welcome to Sakshi's Portfolio");
+});
 
-    let temp = parseFloat(document.getElementById("temp").value);
-    let unit = document.getElementById("unit").value;
-    let result = "";
+// Smooth Scroll Effect
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener("click", function(e) {
+        e.preventDefault();
 
-    if(isNaN(temp)){
-        result = "Please enter a valid number";
-    }
+        const target = document.querySelector(this.getAttribute("href"));
 
-    else if(unit === "celsius"){
+        target.scrollIntoView({
+            behavior: "smooth"
+        });
+    });
+});
 
-        let f = (temp * 9/5) + 32;
-        let k = temp + 273.15;
+// Dynamic Year in Footer
+const footer = document.querySelector("footer p");
 
-        result =
-        `${temp}°C = ${f.toFixed(2)}°F | ${k.toFixed(2)}K`;
-    }
-
-    else if(unit === "fahrenheit"){
-
-        let c = (temp - 32) * 5/9;
-        let k = c + 273.15;
-
-        result =
-        `${temp}°F = ${c.toFixed(2)}°C | ${k.toFixed(2)}K`;
-    }
-
-    else if(unit === "kelvin"){
-
-        let c = temp - 273.15;
-        let f = (c * 9/5) + 32;
-
-        result =
-        `${temp}K = ${c.toFixed(2)}°C | ${f.toFixed(2)}°F`;
-    }
-
-    document.getElementById("result").innerHTML = result;
-}
+footer.innerHTML =
+`© ${new Date().getFullYear()} Sakshi Kumari | All Rights Reserved`;
