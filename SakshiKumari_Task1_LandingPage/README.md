@@ -40,4 +40,4 @@ https://github.com/sakshibhardwaj5feb2006-droid/OIBSIP
 
 🌐 Live Demo
 
-https://sakshibhardwaj5feb2006-droid.github.io/OIBSIP/Task1_LandingPage/
+https://sakshibhardwaj5feb2006-droid.github.io/OIBSIP/SakshiKumari_Task1_LandingPage/
